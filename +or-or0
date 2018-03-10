@@ -1,7 +1,0 @@
-a=0
-if(a>0):
-  print("the entered  number is positive")
-elif(a<0):
-  print("the entered number is negative")
-else:
-  print("the enterd number is zero")
