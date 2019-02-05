@@ -1,6 +1,6 @@
-a=int(input("num1:"))
-b=int(input("num2:"))
-c=int(input("num3:"))
+a=int(input("num:"))
+b=int(input("num:"))
+c=int(input("num:"))
 if(a>b):
   if(a>c):
     print(a)
