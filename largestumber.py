@@ -2,10 +2,10 @@ a=raw_input()
 b=raw_input()
 c=raw_input()
 if((a>b)and(a>c)):
- print("a is greater")
+ print(a)
 elif((b>a)and(b>c)):
-  print("b is greater ")
+  print(b)
 elif((a<c)and(b<c)):
-  print("c is greater ")
+  print(c)
 else:
   print("invalid")  
