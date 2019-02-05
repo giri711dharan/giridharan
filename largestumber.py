@@ -1,6 +1,6 @@
-a=int(input())
-b=int(input())
-c=int(input())
+a=int(input("num1:"))
+b=int(input("num2:"))
+c=int(input("num3:"))
 if(a>b):
   if(a>c):
     print(a)
@@ -9,4 +9,5 @@ elif(b>c):
 elif(c>a)and(c>b):
   print(c)
 else:
-  print(invalid)  
+  print(0)  
+  
