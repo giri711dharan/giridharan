@@ -1,11 +1,12 @@
-a=raw_input()
-b=raw_input()
-c=raw_input()
-if((a>b)and(a>c)):
- print(a)
-elif((b>a)and(b>c)):
+a=int(input())
+b=int(input())
+c=int(input())
+if(a>b):
+  if(a>c):
+    print(a)
+elif(b>c):
   print(b)
-elif((a<c)and(b<c)):
+elif(c>a)and(c>b):
   print(c)
 else:
-  print("invalid")  
+  print(invalid)  
