@@ -1,4 +1,4 @@
-ch=raw_input('enter the value:')
+ch=raw_input('input:')
 if ch == '0':
    exit();
 else:
