@@ -1,9 +1,9 @@
-ch=raw_input()
+ch=raw_input('enter the value:')
 if ch == '0':
    exit();
 else:
     if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
-      print(ch, "is a alphabet");
+      print(" alphabet");
     else:
-      print(ch, "is not alphabet");
-      
+      print("not a alphabet");
+    
