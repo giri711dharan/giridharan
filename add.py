@@ -1,3 +1,3 @@
-n=list(input().split())
-s=int(n[0])*int(n[1])
-print(str(s))
+s=list(input().split())
+g=int(s[0])*int(s[1])
+print(str(g))
